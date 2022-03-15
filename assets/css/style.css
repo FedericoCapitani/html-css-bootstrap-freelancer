@@ -19,8 +19,13 @@
 .bg_purple{
     background-color: var(--bs-purple);
 }
+
+.header_height, .footer_bottom{
+    height: 60px;
+}
 .col_height{
     height: 50px;
+    margin: 5px 0;
 }
 .card_height{
     height: 400px;
