@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_yellow{
+    background-color: yellow;
+}
+.bg_red{
+    background-color: red;
+}
+.bg_blue{
+    background-color: blue;
+}
+.bg_green{
+    background-color: rgb(15, 240, 15);
+}
