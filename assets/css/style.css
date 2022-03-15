@@ -5,14 +5,27 @@
 }
 
 .bg_yellow{
-    background-color: yellow;
+    background-color: var(--bs-yellow);
 }
 .bg_red{
-    background-color: red;
+    background-color: var(--bs-red);
 }
 .bg_blue{
-    background-color: blue;
+    background-color: var(--bs-blue);
 }
 .bg_green{
-    background-color: rgb(15, 240, 15);
+    background-color: var(--bs-green);
+}
+.bg_purple{
+    background-color: var(--bs-purple);
+}
+.col_height{
+    height: 50px;
+}
+.card_height{
+    height: 400px;
+}
+.content_height{
+    height: 350px;
+    margin: 25px 0;
 }
