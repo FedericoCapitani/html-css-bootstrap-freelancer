@@ -3,7 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --nav_menu:#2c3e50;
+    --bg_primary:#1abc9c;
+    --bg_footer:#3a546d;
+}
+.bg_prim{
+    background-color: var(--bg_primary);
+}
 .bg_yellow{
     background-color: var(--bs-yellow);
 }
@@ -19,7 +26,22 @@
 .bg_purple{
     background-color: var(--bs-purple);
 }
-
+.width100{
+    width: 100%;
+}
+.font_40{
+    font-size: 40px;
+}
+.white_text{
+    color: white;
+}
+.white_line{
+    display: inline-block;
+    width: 20%;
+    height: 1px;
+    border: 1px solid white;
+    margin: 0 5px;
+}
 .header_height, .footer_bottom{
     height: 60px;
 }
@@ -33,4 +55,7 @@
 .content_height{
     height: 350px;
     margin: 25px 0;
+}
+.avatar{
+    width: 200px;
 }
