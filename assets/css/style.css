@@ -7,24 +7,33 @@
     --nav_menu:#2c3e50;
     --bg_primary:#1abc9c;
     --bg_footer:#3a546d;
+    --bg_cabin:#ba4b63;
+    --bg_cake:#1ea4b6;
+    --bg_circus:#140f0f;
+    --bg_game:#1c83c1;
+    --bg_safe:#0e38b5;
+    --bg_sub:#ccb2a3;
 }
 .bg_prim{
     background-color: var(--bg_primary);
 }
-.bg_yellow{
-    background-color: var(--bs-yellow);
+.bg_cabin{
+    background-color: var(--bg_cabin);
 }
-.bg_red{
-    background-color: var(--bs-red);
+.bg_cake{
+    background-color: var(--bg_cake);  
 }
-.bg_blue{
-    background-color: var(--bs-blue);
+.bg_circus{
+    background-color: var(--bg_circus);
 }
-.bg_green{
-    background-color: var(--bs-green);
+.bg_game{
+    background-color: var(--bg_game);
 }
-.bg_purple{
-    background-color: var(--bs-purple);
+.bg_safe{
+    background-color: var(--bg_safe);
+}
+.bg_sub{
+    background-color: var(--bg_sub);
 }
 .width100{
     width: 100%;
@@ -35,12 +44,20 @@
 .white_text{
     color: white;
 }
-.white_line{
+.line{
     display: inline-block;
     width: 20%;
     height: 1px;
-    border: 1px solid white;
     margin: 0 5px;
+}
+.white_line{
+    border: 1px solid white;
+}
+.blue_line{
+    border: 1px solid var(--nav_menu);
+}
+.blue_star{
+    color: var(--nav_menu);
 }
 .header_height, .footer_bottom{
     height: 60px;
@@ -58,4 +75,8 @@
 }
 .avatar{
     width: 200px;
+}
+.portfolio_img{
+    width: 100%;
+    border-radius: 20px;
 }
