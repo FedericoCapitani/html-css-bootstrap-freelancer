@@ -22,17 +22,17 @@
 
     <!-- main -->
     <main>
-        <div class="hero_image">
-            <div class="container bg_prim">
+        <div class="hero_image bg_prim">
+            <div class="container">
                 <div class="row">
                     <div class="col card_height d-flex flex-column justify-content-center">
                         <img src="./assets/img/avatar.svg" alt="" class="avatar align-self-center">
                         <h2 class="white_text align-self-center font_40">
                             START BOOTSTRAP
                         </h2>
-                        <div class="align-self-center width100 d-flex justify-content-center">
+                        <div class="align-self-center width100 d-flex justify-content-center my-3">
                             <div class="line white_line align-self-center"></div>
-                            <i class="fa-solid fa-star white_text"></i>
+                            <i class="fa-solid fa-star white_text star_font"></i>
                             <div class="line white_line align-self-center"></div>
                         </div>
                         <p class="white_text align-self-center">
@@ -45,11 +45,11 @@
         <div class="portfolio">
             <div class="container">
                 <div class="row gx-5 gy-3">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center mt-5">
                         <h3>PORTOFOLIO</h3>
-                        <div class="align-self-center width100 d-flex justify-content-center">
+                        <div class="align-self-center width100 d-flex justify-content-center my-3">
                             <div class="line blue_line align-self-center"></div>
-                            <i class="fa-solid fa-star blue_star"></i>
+                            <i class="fa-solid fa-star blue star_font"></i>
                             <div class="line blue_line align-self-center"></div>
                         </div>
                     </div>
@@ -74,35 +74,99 @@
                 </div>
             </div>
         </div>
-        <div class="about">
-            <div class="container bg_blue">
-                <div class="row">
-                    <div class="col-12 col_height"></div>
-                    <div class="col-sm-12 col-md-6 bg_green card_height"></div>
-                    <div class="col-sm-12 col-md-6 bg_red card_height"></div>
+        <div class="about bg_prim">
+            <div class="container">
+                <div class="row mx-5">
+                    <div class="col-12 mt-5 text-center font_40 white_text">
+                        ABOUT
+                    </div>
+                    <div class="align-self-center width100 d-flex justify-content-center my-3">
+                        <div class="line white_line align-self-center"></div>
+                        <i class="fa-solid fa-star white_text star_font"></i>
+                        <div class="line white_line align-self-center"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 white_text mb-1">
+                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customization
+                    </div>
+                    <div class="col-sm-12 col-md-6 white_text mb-1">
+                        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                    </div>
+                    <div class="col-12 text-center my-5">
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="fa-solid fa-download white_text"></i>
+                            Download
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="FAQ">
+        <div class="FAQ mb-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 bg_yellow card_height"></div>
+                <div class="row mx-5">
+                    <div class="col-12 text-center font_40 mt-5">
+                        <h3>CONTACT ME</h3>
+                        <div class="align-self-center width100 d-flex justify-content-center my-3">
+                            <div class="line blue_line align-self-center"></div>
+                            <i class="fa-solid fa-star blue star_font"></i>
+                            <div class="line blue_line align-self-center"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 border_bottom form-inlane">
+                        <label for="staticName" class="form-label blue font_20">
+                            Nome
+                        </label>
+                        <input type="text" readonly class="form-control-plaintext" id="staticName">
+                    </div>
+                    <div class="col-12 border_bottom form-inline">
+                        <label for="staticEmail" class="form-label blue font_20">Email Address</label>
+                        <input type="email" readonly class="  form-control-plaintext" id="staticEmail">
+                    </div>
+                    <div class="col-12 border_bottom form-inline">
+                        <label for="staticphoneN" class="form-label blue font_20">Phone Number</label>
+                        <input type="text" readonly class="form-control-plaintext" id="staticphoneN">
+                    </div>
+                    <div class="col-12 border_bottom">
+                        <label for="staticmessage" class="form-label blue font_20">Message</label>
+                        <textarea class="form-control-plaintext mb-1" id="staticmesage" rows="5"></textarea>
+                    </div>
+                    <div class="col-12 text-start">
+                        <button type="button" class="btn bg_prim my-2 white_text">Send</button>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer>
+    <footer class="bg_footer pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4 bg_red col_height"></div>
-                <div class="col-sm-12 col-md-4 bg_blue col_height"></div>
-                <div class="col-sm-12 col-md-4 bg_green col_height"></div>
+                <div class="col-sm-12 col-md-4 white_text text-center">
+                    <h3 class="mb-n1">LOCATION</h3>
+                    <p class="margin_b">2215 John Daniel Drive Clark, MO</p>
+                    <p>54243</p>
+                </div>
+                <div class="col-sm-12 col-md-4 white_text text-center mb-4">
+                    <h3>AROUND THE WEB</h3>
+                    <i class="fa-brands fa-facebook-f border_circle"></i>
+                    <i class="fa-brands fa-google-plus-g border_circle"></i>
+                    <i class="fa-brands fa-twitter border_circle"></i>
+                    <i class="fa-brands fa-linkedin-in border_circle"></i>
+                </div>
+                <div class="col-sm-12 col-md-4 white_text text-center">
+                    <h3>ABOUT FREELANCER</h3>
+                    <p>
+                        Freelance is a free to use, open source Bootstrap theme created by <span> <a href="#" class="footer_link"> Start Bootstrap </a></span>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid bg_nav">
             <div class="row">
-                <div class="col-12 footer_bottom bg_yellow"></div>
+                <div class="col-12 text-center white_text my-5">
+                    <p>
+                        Copyright <i class="fa-solid fa-copyright"></i> Your Website 2019
+                    </p>
+                </div>
             </div>
         </div>
     </footer>

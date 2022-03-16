@@ -17,6 +17,12 @@
 .bg_prim{
     background-color: var(--bg_primary);
 }
+.bg_nav{
+    background-color: var(--nav_menu);
+}
+.bg_footer{
+    background-color: var(--bg_footer);
+}
 .bg_cabin{
     background-color: var(--bg_cabin);
 }
@@ -41,6 +47,12 @@
 .font_40{
     font-size: 40px;
 }
+.font_20{
+    font-size: 20px;
+}
+.star_font{
+    font-size: 30px;
+}
 .white_text{
     color: white;
 }
@@ -51,12 +63,15 @@
     margin: 0 5px;
 }
 .white_line{
-    border: 1px solid white;
+    border: 2px solid white;
 }
 .blue_line{
-    border: 1px solid var(--nav_menu);
+    border: 2px solid var(--nav_menu);
 }
-.blue_star{
+.border_bottom{
+    border-bottom: 1px solid gray;
+}
+.blue{
     color: var(--nav_menu);
 }
 .header_height, .footer_bottom{
@@ -79,4 +94,23 @@
 .portfolio_img{
     width: 100%;
     border-radius: 20px;
+}
+.about{
+    margin-top: 20px;
+}
+.margin_b{
+    margin-bottom: 0 !important; 
+}
+.border_circle{
+    margin: 0 5px;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.footer_link{
+    text-decoration: none;
+    color: var(--bg_primary);
 }
